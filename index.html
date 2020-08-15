@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeValidate</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main>
+        <div class=" container shadow">
+            <h2>Wejapa Validate Form</h2>
+            <div id ="error_message"></div>
+            <form onsubmit="return wejapaForm()">
+                <div>
+                    <label>Fullname</label>
+                    <input type="text" name="fullname" id="fullname" class="fullname input" placeholder="Fullname"><br>
+                    <label>Email</label>
+                    <input type="email" name="email" id="email" class="email input" placeholder="Email"><br>
+                    <label>Phone</label>
+                    <input type="tel" name="telephone" id="telephone" class="telephone input" placeholder="Phone number"><br>
+                    <label>Password</label>
+                    <input type="password" name="password" id="password" class="password input" placeholder="Password"><br>
+                    <label></label>
+                    <button id="button" class="button input">Submit</button>
+                </div> 
+            </form>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
